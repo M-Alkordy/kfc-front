@@ -1,0 +1,78 @@
+.gab-5{
+    gap: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardcom{
+    position: relative;
+    width: 220px!important;
+    height: 233px!important;
+    padding: 0;   
+}
+.mt5{
+    margin-top: 5rem!important;
+}
+.imgdiv{
+    position: absolute;
+    width: 150px!important;
+    height: 150px!important;
+    border-radius: 50%;
+    border: 2px solid #B8B8BA;
+    bottom: 70%;
+    left: 11%;
+    background-color: white;
+
+}
+.carddown{
+    
+    padding: 40% 0 8% 0;
+    border-radius: 20px;
+    background-color:  #E1E1E1;
+    width: 100%!important;
+    height: 100%!important;
+    color: #8F8F8F;
+    font-size: 10px;
+    text-align: center;
+}
+.carddown ul{
+    padding: 0;
+}
+.carddown li{
+    list-style-type: none;
+    margin-top:5px;
+}
+.carddown ul .rate{
+    padding-left: 42%;
+
+}
+.carddown ul .Calories{
+    padding-left: 20%;
+}
+.carddown h2{
+    color: black;
+}
+.carddown span{
+    font-size: 10px;
+}
+.carddown .title{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cardimg{
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+    border-radius: 50%;      
+}
+
+.btncard{
+    width: 70px!important;
+    height: 29px!important;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 10px!important;
+    border: 1px solid #8F8F8F;
+}

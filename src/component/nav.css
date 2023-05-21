@@ -1,0 +1,24 @@
+.nav1{
+    left: 5%;
+    top: 20px;
+    border-radius: 10px;
+    /* z-index: 3; */
+    background-color: white;
+    
+}
+
+.nav2{
+    gap: 20px;
+    font-size: large;
+   
+}
+.list{
+    width: 900px;
+    height: 200px;
+    border: none;
+}
+.list li{
+    list-style: none;
+    padding: 15px;
+}
+

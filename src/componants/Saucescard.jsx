@@ -1,21 +1,16 @@
-import { Container } from 'react-bootstrap';
-import '../assest/style/Cardstyle.css';
-import { GoStar } from "react-icons/go";
-
-function Cardcomponant({ data, img }) {
-
-  return (
-    
-
-    <div className='cardcom row col-lg-3 col-md-6 col-sm-12 mt5 Container '>
+function Saucescard ({data}) {
+    return (
+        <div>
+               <div className='cardcom row col-lg-3 col-md-6 col-sm-12 mt5 Container '>
       <div className='imgdiv col-lg-12'>
         {/* <img src={img} className='cardimg ' /> */}
       </div>
       
       <div className='carddown row col-12 gab-1 Container'>
-      
-  
-        <h2 className='title col-12'>{data.title}</h2>
+        <div className="head col-12">
+        <h2 className='title col-6'>{data.title}</h2>
+        <span className="col-6">{data.price}$$</span>
+        </div>
         
         <ul className='row col-12 '>
           
@@ -35,15 +30,13 @@ function Cardcomponant({ data, img }) {
           {data.price}$$
         </button>
         <button className='btncard col-6 mx-2'>
-          {data.buy}
+          Buy Now
         </button>
         
         
       </div>
     </div>
-
-  );
-
+        </div>
+    )
 }
-
-export default Cardcomponant;
+export default Saucescard;

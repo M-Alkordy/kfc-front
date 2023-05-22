@@ -1,0 +1,14 @@
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: end;
+}
+.about .btn-about{
+    width: 262px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: white;
+    
+}

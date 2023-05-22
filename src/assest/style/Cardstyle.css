@@ -1,10 +1,10 @@
+
 .gab-5{
     gap: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .cardcom{
     position: relative;
     width: 220px!important;

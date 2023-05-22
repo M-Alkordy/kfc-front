@@ -1,0 +1,46 @@
+@media (max-width:990px) {
+    .culture{
+        background-color: #db0505;
+        width: 90%!important;
+        margin: 1.5rem;
+        
+    }
+    .img{
+        left: 35px!important;
+        top: 347px!important;
+        width: 103px!important;
+        height: 141px!important;
+        transform: rotate(15deg)!important;
+    }
+    .culture .text{
+        font-size: 12px;
+    }
+}
+.culture{
+    position: relative;
+    background-color: #D9D9D9;
+    width: 75%;
+    padding: 2rem;
+    
+}
+.culture .text{
+    text-align: start;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.culture .maneger{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10rem;
+}
+.img{
+    border: 1px solid gray;
+    border-radius: 20px;
+    position: absolute;
+    width: 239.61px;
+    height: 311.74px;
+    left: 899px;
+    transform: rotate(15deg);
+    top: 58px;
+}

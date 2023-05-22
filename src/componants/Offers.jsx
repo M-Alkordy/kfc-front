@@ -3,7 +3,9 @@ import img from '../assest/images/images.jfif';
 import '../assest/style/Cardstyle.css';
 import { Container } from 'react-bootstrap';
 
+
 function Cards () {
+
     const data = [
         {
         title: "Mac & Cheese Bowl",
@@ -11,6 +13,7 @@ function Cards () {
         Pieces: "5",
         Calories: "15",
         price: " ",
+        buy: "Buy Now",
         },
         {
         title: "Mac & Cheese Bowl",
@@ -18,6 +21,7 @@ function Cards () {
         Pieces: "5",
         Calories: "15",
         price: " ",
+        buy: "Buy Now",
         },
         {
         title: "Mac & Cheese Bowl",
@@ -25,6 +29,7 @@ function Cards () {
         Pieces: "5",
         Calories: "15",
         price: " ",
+        buy: "Buy Now",
         },
         {
         title: "Mac & Cheese Bowl",
@@ -32,11 +37,12 @@ function Cards () {
         Pieces: "5",
         Calories: "15",
         price: " ",
+        buy: "Buy Now",
         }
     ]
     return(
         
-        <div className='row mt-5 w-100 m-auto gab-5 p-5'>
+        <div className='cards row mt-5 w-100 m-auto gab-5 p-5'>
             
             <h1 className='col-12 ps-5'>Special Offers</h1>
                

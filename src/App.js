@@ -1,10 +1,22 @@
 import './App.css';
-import Cards from './componants/Cards';
+import Offers from './componants/Offers';
+import About from './componants/About';
+import Sauces from './componants/Sauces';
 
 function App() {
+
   return (
-   <Cards />
+
+    <div>
+
+      <Offers />
+      
+      <About />
+
+    </div>
+    
   );
+
 }
 
 export default App;

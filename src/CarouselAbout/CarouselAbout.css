@@ -1,0 +1,117 @@
+.About-carousel {
+    height: max-content;
+    overflow: hidden;
+}
+.About-carousel-content {
+    display: inline-flex;
+    gap: 20px;
+    transition: all 1s; 
+    background-color: #eee;   
+}
+.About-carousel-item {
+    width: 35.944363vw;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    height: max-content;
+    min-width: 229px;
+}
+@media(max-width : 500px) {
+    .About-carousel-item {
+        padding: 5px;
+    }
+}
+.card-container {
+    /* flex-wrap: nowrap; */
+}
+@media(max-width : 1200px) {
+    .About-carousel-item .my-card h1 {
+        font-size: 30px;
+        line-height: 14.57px;
+    }
+    .About-carousel-item .my-card h3 {
+        font-size: 25px;
+        line-height: 17px;
+    }
+    .About-carousel-item .my-card p {
+        font-size: 10px;
+        line-height: 14.8px;
+        margin: 0;
+    }
+    .my-card .img-card img {
+        width: 130px;
+    }
+}
+@media(max-width: 962px) {
+    .About-carousel-item .my-card h1 {
+        font-size: 25px;
+        line-height: 21.52px;
+        line-height: 14.57px;
+        margin: 0;
+    }
+    .About-carousel-item .my-card h3 {
+        font-size: 20px;
+        line-height: 17px;
+        margin: 0;
+    }
+    .my-card .img-card img {
+        height: max-content;
+
+    }
+}
+
+@media(max-width: 835) {
+    .About-carousel-item .my-card h1 {
+        font-size: 20px;
+    }
+    .About-carousel-item .my-card h3 {
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .About-carousel-item .my-card p {
+        font-size: 7px;
+    }
+}
+
+@media(max-width: 625px) {
+    .About-carousel-item .my-card h1 {
+        font-size: 14px;
+        line-height: 16.99px;
+    }
+    .About-carousel-item .my-card h3 {
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .About-carousel-item .my-card p {
+        font-size: 5.62px;
+        line-height: 6.8px;
+    }
+    .my-card .img-card img {
+        height: max-content;
+        width: 78px;
+        width: 100px;
+    }
+}
+.About-indicators {
+    margin-top: 50px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.About-indicator-item {
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 5px;
+    background-color: #898484;
+    cursor: pointer;
+
+}
+.About-indicator-item.active {
+    background-color: #242424;
+}
+
+

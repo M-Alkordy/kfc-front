@@ -1,0 +1,18 @@
+.my-header {
+    padding-top: var(--section-padding-top);
+    padding-bottom: var(--section-padding-bottom);
+    font-weight: 700;
+    font-size: 42px !important;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+@media(max-width : 508px) {
+    .my-header {
+        font-size: 20px !important;
+        padding: 0;
+        padding-top: 32px;
+        margin-bottom: 25px;
+    } 
+}

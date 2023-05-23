@@ -1,0 +1,105 @@
+.culture-carousel {
+    height: max-content;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.culture-carousel-content {
+    display: inline-flex;
+    gap: 20px;
+    transition: all 1s;    
+}
+.culture-carousel-item {
+    width: 25vw;
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 25px;
+    border-radius: 20px;
+    min-width: 200px;
+}
+
+.culture-carousel-item .my-card img {
+    border-radius: 10px;
+}
+
+.culture-carousel-item .my-card h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.culture-carousel-item .description p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 14.52px;
+}
+@media(max-width: 1200px) {
+    .my-card {
+        /* max-width: 100%; */
+        /* justify-content: space-between; */
+        
+    }
+}
+
+
+
+
+@media(max-width : 1250px) {
+    .culture-carousel-item .my-card h1 {
+        font-size: 11px;
+        line-height: 14.57px;
+    }
+    .culture-carousel-item .description p {
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+}
+
+
+@media(max-width: 625px) {
+    .culture-carousel-item {
+        border-radius: 11px;
+        padding: 10px;
+    }
+    .culture-carousel-item .my-card h1 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .culture-carousel-item .description p {
+        font-size: 6.99px;
+        line-height: 8.46px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.indicators {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.indicator-item {
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 5px;
+    background-color: #898484;
+    cursor: pointer;
+
+}
+.indicator-item.active {
+    background-color: #242424;
+}
+
+

@@ -28,8 +28,6 @@ const nav = () => {
                     <li>Family Meals</li>
                     <li>Nuggets</li>
              
-              
-            
               </ul>
               </div>
               <div className='col-lg-4'>
@@ -48,11 +46,8 @@ const nav = () => {
               </ul>
               </div>
              
-              
               </div>
               </div>
-              
-              
               
             </NavDropdown>
            

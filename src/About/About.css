@@ -1,0 +1,230 @@
+
+.hero-img {
+    position: relative;
+    min-width: 336px;
+    min-height: 143px;
+}
+.hero-header {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: var(--section-padding-top);
+    width: 58.831625183vw;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 65.35px;
+}
+@media(max-width : 1250px) {
+    .hero-header {
+        font-size: 45px;
+        line-height: 50.35px;
+    }
+    
+}
+@media(max-width : 1115px) {
+    .hero-header {
+        font-size: 38px;
+        line-height: 45.35px;
+    }
+}
+@media(max-width : 988px) {
+    .hero-header {
+        font-size: 34px;
+        line-height: 40.63px;
+    }
+}
+@media(max-width : 899px) {
+    .hero-header {
+        font-size: 30px;
+        line-height: 35.63px;
+    }
+}
+@media(max-width : 806px) {
+    .hero-header {
+        font-size: 28px;
+        line-height: 30.63px;
+    }
+}
+@media(max-width : 761px) {
+    .hero-header {
+        font-size: 25px;
+        line-height: 26.63px;
+    }
+}
+@media(max-width : 487px) {
+    .hero-header {
+        font-size: 22px;
+        line-height: 26.63px;
+        width: 243px;
+    }
+} 
+
+
+/* Start about kfc section */
+.row.about .my-img img {
+    border-radius: 20px;
+}
+
+.row .about .my-p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+}
+@media (max-width : 767px) {
+    .row.about .my-img {
+        margin-top: 2rem !important;
+    }
+    .row.about .my-p {
+        font-size: 14px;
+        line-height: 16.49px;
+    }
+}
+
+
+
+
+
+.begin {
+    margin-top: var(--section-padding-top);
+}
+
+.begin .header-container .header {
+    font-weight: 700;
+    width: max-content;
+}
+@media(max-width:767px){
+    .begin .header-container {
+        flex-direction: row !important;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: start !important;
+    }
+    .begin .header  {
+        font-size: 35px;
+        
+    }
+}
+@media(max-width:450px) {
+    .begin .header-container .header {
+        font-size: 25px;
+    }
+}
+
+.begin .hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 100px 500px; */
+    padding-top: 100px;
+    padding-bottom: 50px;
+    /* padding-left: 300px; */
+    /* padding-right: 100px; */
+    background-color: var(--main-color);
+    overflow: hidden;
+}
+
+
+.begin .hero .info h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    width: max-content;
+    line-height: 24.2px;
+}
+
+.hero .info p {
+    font-size: 12px;
+    line-height: 14.52px;
+    width: 330px;
+}
+@media(min-width : 1201px) {
+    
+}
+.hero .first-img {
+    top: 100px;
+    left: 30px;
+    width: 150px;
+    border-radius: 20px;
+    transform: rotate(-16deg);
+}    
+.hero .second-img {
+    top: 150px;
+    right: 75px;
+    border-radius: 20px;
+    transform: rotate(16deg);
+    width: 100px;
+}
+
+@media(max-width : 1200px) {
+    .hero .second-img {
+        top: 150px;
+        right: 50px;
+    }.hero .first-img {
+        top: -60px;
+        left: 300px;
+    } 
+}
+@media(max-width : 903px) {
+    .begin .hero {
+        /* padding-left: 370px; */
+    }
+    /* .hero .second-img {
+        top: -35px;
+        right: 0px;
+    } */
+    .hero .first-img {
+        left: -70px;
+        top: 190px;
+    }
+    .hero .second-img {
+        right: 50px;
+        top: 8px;
+    }
+}
+@media(max-width : 767px) {
+    .hero .second-img {
+        top: 0;
+        right: 25px;
+    }
+    .begin .hero {
+        padding-left: 12px;
+        padding-right: 250px;
+        padding-bottom: 200px;
+        justify-content: start;
+        width: auto;
+    } .begin .first-img {
+        left: 70px;
+        top: 229px;
+    }
+} 
+
+
+/* @media(max-width : 440px) {
+    .hero .first-img {
+        width: 140px;
+        height: 180px;
+    }
+    .hero .second-img {
+        width: 80px;
+        height: 100px;
+        right: 75   px;
+    }
+}  */
+
+
+
+.steps {
+    margin-top: var(--section-padding-top);
+    padding-bottom: var(--section-padding-top);
+    background-color: var(--main-color);
+  }
+
+  .Section-Resp {
+    background-color: #eee;
+  }
+
+  .reponsability {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }

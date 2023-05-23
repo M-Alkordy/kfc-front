@@ -1,0 +1,48 @@
+.Resp-carousel {
+    height: max-content;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.Resp-carousel .my-card {
+    text-align: center;
+    margin-bottom: 32px;
+}
+.Resp-carousel-content {
+    display: inline-flex;
+    gap: 20px;
+    transition: all 1s;    
+}
+.Resp-carousel-item {
+    width: 30vw;
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 25px;
+    border-radius: 20px;
+    min-width: 200px;
+}
+
+
+
+
+
+.indicators {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.indicator-item {
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 5px;
+    background-color: #898484;
+    cursor: pointer;
+
+}
+.indicator-item.active {
+    background-color: #242424;
+}
+
+

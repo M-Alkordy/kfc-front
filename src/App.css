@@ -1,12 +1,9 @@
+:root {
+    --section-padding-top : 74px;
+    --section-padding-bottom : 54px;
+    --main-color : #eee;
+}
 body {
     overflow-x: hidden;
 }
 
-.nav {
-    height: 100px;
-    width: 100vw;
-    background-color: #eee;
-    text-align: center;
-    line-height: 100px;
-    margin: 0;
-}

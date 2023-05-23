@@ -1,22 +1,38 @@
 import './App.css';
-import Offers from './componants/Offers';
+import Cardproducts from './componants/Cardproducts';
 import About from './componants/About';
-import Sauces from './componants/Sauces';
+import { Outlet } from 'react-router-dom';
 
 function App() {
+
+  const titleoffers = "Special Offers";
+  const offers = [   
+    {
+    title: "Mac & Cheese Bowl",
+    },
+    {
+    title: "Mac & Cheese Bowl",
+    },
+    {
+    title: "Mac & Cheese Bowl",
+    },
+    {
+    title: "Mac & Cheese Bowl",
+    }
+]
 
   return (
 
     <div>
-
-      <Offers />
       
+      <Outlet />
+      <Cardproducts data={offers} titlehead={titleoffers}/>      
       <About />
 
     </div>
     
   );
-
+  
 }
 
 export default App;

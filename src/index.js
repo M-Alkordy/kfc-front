@@ -8,13 +8,19 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Allproducts from './componants/Allproducts';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-  },
-  
+    children: [
+      {
+        path: "/allproducts",
+        element: <Allproducts />,
+      },
+    ],
+  }
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

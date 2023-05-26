@@ -1,0 +1,102 @@
+.btn-close {
+  margin: 0 !important;
+}
+.modal-header {
+  flex-direction: row-reverse;
+  color: #000000;
+}
+.modal-content {
+    background-color: #F5F5F5;
+}
+.nav-underline {
+  flex: 1;
+}
+.nav ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex: 1;
+  padding: 0;
+}
+
+.nav ul li {
+  flex: 50%;
+  color:rgba(88, 87, 87, 0.31);
+  text-align: center;
+  z-index: 3;
+}
+.btn-close {
+    z-index: 4;
+}
+.nav ul li a {
+    padding: 0.7em 0;
+}
+.nav ul li button {
+    padding: 18px 10px;
+}
+.nav-link ,.nav-link:hover {
+    color: #000000;
+    transition: .5s;
+}
+nav ul li a.active,nav ul li a:hover{
+    color: #000000;
+    border-bottom: 3px solid #000000 !important;
+}
+.nav-underline .nav-link {
+  border: 0;
+}
+.nav::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
+  top: 75px;
+}
+.display-7 {
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 24.2px;
+}
+.display-8 {
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 600;
+
+}
+
+.modal-header {
+  border-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.btn-close {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+/* .form-check-input:focus {
+background-color: #0d6efd;
+} 
+.form-check-input {
+background-color: #ccc;
+}  */
+/* .form-check-input {
+    background-color: #ccc;
+    font-size: 1.3em;
+    }  */
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.form-check-label {
+    margin-left: 10px;
+}
+.signupbtn {
+    width: 70%;
+    border-radius: 20px;
+
+}

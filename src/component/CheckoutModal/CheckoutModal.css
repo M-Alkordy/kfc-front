@@ -1,0 +1,140 @@
+.checkout-card {
+  background: #d9d9d9;
+  border-radius: 17.6725px;
+}
+
+.order {
+  padding-bottom: 3px;
+  border-bottom: 1px solid #898484;
+}
+.total {
+  margin-top: 170px;
+}
+.order {
+  margin-top: 25px;
+}
+.total-handler {
+  background: #fdfdfd;
+  border: 1.76725px solid #898484;
+  border-radius: 17.6725px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.nav-item .active {
+  color: #000 !important;
+  background-color: #d9d9d9 !important;
+}
+
+.checkout-card {
+  border-top-left-radius: var(--bs-modal-inner-border-radius);
+  border-top-right-radius: var(--bs-modal-inner-border-radius);
+}
+.text-checkout-holder {
+  margin-top: 90px;
+}
+.contact,
+.donation,
+.payment {
+  flex: 33.333%;
+
+}
+
+.checkout-card ul {
+  border-top-left-radius: var(--bs-modal-inner-border-radius);
+  border-top-right-radius: var(--bs-modal-inner-border-radius);
+  height: 62px;
+  align-items: center;
+  
+}
+
+.checkout-card ul li a {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkout-card ul li {
+  height: 62px;
+  text-align: center;
+}
+.dropdown-menu.show {
+    display: block;
+    width: 100%;
+}
+.branches ul li {
+    height: 62px;
+    text-align: center;
+    background: #ccc;
+    border: 1px solid #fff;
+}
+.dropdown-item{
+    width: 100%;
+}
+.by-providing {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.3708px;
+    line-height: 15px;
+    color: #000;
+}
+.branches button{
+    padding: 5.30175px 66.2719px;
+}
+
+.tab {
+  display: flex;
+  flex: 33.33%;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  height: 62px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 17.6725px 0px;
+}
+
+/* .contact {
+  border-radius: 0px 0px 20px 0px;
+}
+.donation{
+  border-radius: 0px 0px 20px 0px;
+}
+.payment{
+  border-radius: 0px 17.6725px 0px 20px;
+} */
+
+.checkout-card .active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #D9D9D9;
+  color: #000;
+ 
+}
+.active-content {
+  display: block!important;
+}
+.content {
+ 
+  display: none;
+}
+.next-btn-holder button{
+  padding: 5.30175px 66.2719px;
+  position: absolute;
+  right: 15px;
+  bottom: 20px;
+}
+.modal-content {
+  min-height: 576px;
+}
+.vector-img {
+  position: absolute;
+left: 4.9%;
+right: 76.37%;
+top: 72.1%;
+bottom: 5.07%;  
+}

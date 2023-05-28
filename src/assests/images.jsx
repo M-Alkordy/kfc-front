@@ -1,23 +1,44 @@
+
+
 export const images = [ 
     {
-        url : "https://placehold.jp/dd3813/eeeeee/1366x376.png"
+        id  : 1 ,
+        url : require("./about-steps-0.png"),
     },
     {
-        url : "https://placehold.jp/dd3813/eeeeee/584x323.png"
+        id  : 2 ,
+        url : require("./about-steps-1.png"),
     },
     {
-        url : "https://placehold.jp/dd3813/eeeeee/973x280.png"
+        id  : 3 ,
+        url : require("./about-steps-2.png"),
     },
     {
-        url : "https://placehold.jp/dd3813/eeeeee/196x255.png"
+        id  : 4 ,
+        url : require("./about-steps-3.png"),
     },
     {
-        url : "https://placehold.jp/dd3813/eeeeee/122x158.png"
+        id  : 5 ,
+        url : require("./about-steps-4.png"),
     },
     {
-        url : "https://placehold.jp/dd3813/eeeeee/240x312.png"
+        id  : 6 ,
+        url : require("./about-steps-5.png"),
     },
     {
-        url : "https://placehold.jp/dd3813/eeeeee/40x40.png"
+        id  : 7 ,
+        url : require("./about-steps-6.png"),
+    },
+    {
+        id  : 8 ,
+        url : require("./about-steps-7.png"),
+    },
+    {
+        id  : 9 ,
+        url : require("./about-steps-8.png"),
+    },
+    {
+        id  : 10 ,
+        url : require("./about-steps-9.png"),
     },
 ]

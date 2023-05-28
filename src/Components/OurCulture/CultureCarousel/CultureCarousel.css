@@ -1,0 +1,122 @@
+.culture-carousel {
+    height: max-content;
+    overflow-x: hidden;
+    padding-left: 4.1%;
+}
+
+.culture-carousel-content {
+    display: inline-flex;
+    gap: 40px;
+    transition: all 1s;
+    padding: 20px 0;
+}
+@media(max-width : 1000px) {
+    .culture-carousel-content {
+        gap: 30px;
+    }
+}
+@media(max-width : 750px) {
+    .culture-carousel-content {
+        gap: 20px;
+    }
+}
+
+
+
+.culture-carousel-item {
+    width: 25vw;
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 25px;
+    border-radius: 20px;
+    min-width: 200px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    background-color: var(--card-color);
+    color: var(--dark-header-color-two);
+}
+.culture-carousel-item .my-card {
+    margin-bottom: 37px;
+}
+.culture-carousel-item .my-card img {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.culture-carousel-item .my-card h1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.culture-carousel-item .description {
+    padding-bottom: 20px;
+}
+.culture-carousel-item .description p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 14px;
+}
+
+
+
+
+@media(max-width : 1250px) {
+    .culture-carousel-item .my-card h1 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+
+@media(max-width: 625px) {
+    .culture-carousel-item .my-card {
+        margin-bottom: 0;
+    }
+    .culture-carousel-item {
+        border-radius: 11px;
+        padding: 10px;
+    }
+    .culture-carousel-item .my-card h1 {
+        font-size: 11px;
+        line-height: 16.3px;
+    }
+    .culture-carousel-item .description p {
+        font-size: 7px;
+        line-height: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.indicators {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.indicator-item {
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 5px;
+    background-color: #898484;
+    cursor: pointer;
+
+}
+.indicator-item.active {
+    background-color: #242424;
+}
+
+

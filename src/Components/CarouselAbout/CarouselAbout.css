@@ -1,0 +1,169 @@
+.About-carousel {
+    height: max-content;
+    overflow: hidden;
+}
+.About-carousel-content {
+    display: inline-flex;
+    gap: 40px;
+    transition: all 1s;
+    padding: 20px 0;
+}
+@media(max-width : 1000px) {
+    .About-carousel-content {
+        gap: 30px;
+    }
+}
+@media(max-width : 750px) {
+    .About-carousel-content {
+        gap: 20px;
+    }
+}
+.About-carousel-item {
+    width: 36vw;
+    background-color: var(--card-color);
+    color: var(--dark-header-color);
+    padding: 10px;
+    border-radius: 20px;
+    height: max-content;
+    min-width: 230px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+.my-card .card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--dark-header-color-two);
+}
+
+
+.my-card .card-info h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    text-transform: capitalize;
+}
+.my-card .card-info h1 {
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 56px;
+    text-transform: uppercase;
+
+}
+.my-card .card-info p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+.my-card .img-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-card img {
+    border-radius: 20px;
+}
+@media(max-width: 962px) {
+    .my-card .img-card img {
+        width: 65.3px;
+        height: 85px;
+    }
+}
+@media(max-width : 500px) {
+    .About-carousel-item {
+        padding: 5px;
+    }
+}
+@media(max-width : 1200px) {
+    .About-carousel-item .my-card h1 {
+        font-size: 30px;
+        line-height: 14.57px;
+    }
+    .About-carousel-item .my-card h3 {
+        font-size: 25px;
+        line-height: 17px;
+    }
+    .About-carousel-item .my-card p {
+        font-size: 10px;
+        line-height: 14.8px;
+        margin: 0;
+    }
+    .my-card .img-card img {
+        width: 130px;
+    }
+}
+@media(max-width: 962px) {
+    .About-carousel-item .my-card h1 {
+        font-size: 25px;
+        line-height: 21.52px;
+        line-height: 14.57px;
+        margin: 0;
+    }
+    .About-carousel-item .my-card h3 {
+        font-size: 20px;
+        line-height: 17px;
+        margin: 0;
+    }
+    .my-card .img-card img {
+        height: max-content;
+
+    }
+}
+
+@media(max-width: 835) {
+    .About-carousel-item .my-card h1 {
+        font-size: 20px;
+    }
+    .About-carousel-item .my-card h3 {
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .About-carousel-item .my-card p {
+        font-size: 7px;
+    }
+}
+
+@media(max-width: 625px) {
+    .About-carousel-item .my-card h1 {
+        font-size: 14px;
+        line-height: 16.99px;
+    }
+    .About-carousel-item .my-card h3 {
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .About-carousel-item .my-card p {
+        font-size: 5.62px;
+        line-height: 6.8px;
+    }
+    .my-card .img-card img {
+        height: max-content;
+        width: 78px;
+        width: 100px;
+    }
+}
+.About-indicators {
+    margin-top: 50px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.About-indicator-item {
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 5px;
+    background-color: #898484;
+    cursor: pointer;
+
+}
+.About-indicator-item.active {
+    background-color: #242424;
+}
+
+

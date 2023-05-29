@@ -8,20 +8,30 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Allproducts from './componants/Allproducts';
 import Search from './componants/Search';
+import Mybag from './componants/Mybag';
+import Home from './componants/Home';
+import Allmeals from './componants/Allmeals';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
       {
-        path: "/allproducts",
-        element: <Allproducts />,
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/allmeals",
+        element: <Allmeals />,
       },
       {
         path: "/search",
         element:<Search />,
+      },
+      {
+        path: "/mybag",
+        element:<Mybag />,
       }
     ],
   },

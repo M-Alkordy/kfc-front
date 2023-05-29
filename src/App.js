@@ -3,6 +3,7 @@ import Cardproducts from './componants/Cardproducts';
 import About from './componants/About';
 import { Outlet } from 'react-router-dom';
 import { AiOutlineSearch } from "react-icons/ai";
+import { BsFillBagHeartFill } from "react-icons/bs";
 import { useNavigate } from 'react-router-dom';
 
 
@@ -11,31 +12,21 @@ function App() {
   const search = () => {
     navigate("/search")
   }
-  const titleoffers = "Special Offers";
-  const offers = [
-    {
-      title: "Mac & Cheese Bowl",
-    },
-    {
-      title: "Mac & Cheese Bowl",
-    },
-    {
-      title: "Mac & Cheese Bowl",
-    },
-    {
-      title: "Mac & Cheese Bowl",
-    }
-  ];
+  
+ 
 
-
+const mybag = () => {
+  navigate("/mybag")
+}
   return (
 
     <div>
     
-      <Outlet />
+      
       <AiOutlineSearch onClick={search} />
-      <Cardproducts data={offers} titlehead={titleoffers} />
-      <About />
+      <BsFillBagHeartFill onClick={mybag}/>
+      <Outlet />
+      
 
     </div>
 

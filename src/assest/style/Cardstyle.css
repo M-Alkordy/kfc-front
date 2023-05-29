@@ -3,6 +3,7 @@
     position: relative;
 }
 
+
 .gab-5{
     gap: 7rem;
     display: flex;
@@ -12,41 +13,49 @@
 
 .cardcom{
     position: relative;
-    width: 220px!important;
+    width: 241px!important;
     height: 233px!important;
     padding: 0;   
 }
 .mt5{
     margin-top: 5rem!important;
 }
-.imgdiv{
+.cardimg{
     position: absolute;
-    width: 150px!important;
-    height: 150px!important;
+    width: 180px!important;
+    height: 180px!important;
     border-radius: 50%;
-    border: 2px solid #B8B8BA;
     bottom: 70%;
-    left: 11%;
-    background-color: white;
+    left: 10%;
 
 }
 .carddown{
     
-    padding: 40% 0 8% 0;
+    padding: 40% 0 20% 0;
     border-radius: 20px;
-    background-color:  #E1E1E1;
+    background-color:  #fcf5f7;
     width: 100%!important;
-    height: 100%!important;
-    color: #8F8F8F;
+    color: black;
     font-size: 10px;
     text-align: center;
 }
-.carddown ul{
+.carddown .detils{
+    gap: 4rem;
+    margin-left: 0.1rem;
+    justify-content: center;
+    align-items: center;
+}
+.carddown .detils ul li .gray{
+    color: rgb(170, 169, 169);
+}
+.carddown .detils ul{
     padding: 0;
 }
 .carddown li{
     list-style-type: none;
     margin-top:5px;
+    font-size: 12px;
+    font-weight: 500;
 }
 .carddown ul .rate{
     padding-left: 42%;
@@ -66,18 +75,55 @@
     font-weight: 500;
 }
 
-.cardimg{
-    position: absolute;
-    width: 100%!important;
-    height: 100%!important;
-    border-radius: 50%;      
-}
 
+.carddown .quantity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 28px;
+    height: 67px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+
+}
+.carddown .quantity .plus{
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+}
 .btncard{
     width: 70px!important;
     height: 29px!important;
     border-radius: 20px;
-    background-color: white;
+    background-color: transparent;
     font-size: 10px!important;
-    border: 1px solid #8F8F8F;
+    border: 1px solid black;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+.btns .price{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+}
+.red{
+    gap: 0.5rem;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: -37px;
+}
+.red span{
+    background-color: #E4002B;
+    width: 5.19px;
+    height: 26.71px;
+
 }

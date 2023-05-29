@@ -1,0 +1,141 @@
+@media (max-width:990px){
+    .parent .mybag{
+        float: none;
+        width:100%!important;
+        background-color: #FBFBFB!important;
+    }
+    .parent .mybag .cont{
+        gap: 0rem!important;
+        flex-direction: column;
+    }
+    .parent .mybag .slider{
+        display: flex;
+        gap: 1rem;
+        padding-left: 1rem;
+    }
+    .slider-btns{
+        visibility: visible;
+    }
+    .parent .mybag  .checkout{
+        flex-direction: column;
+        gap: 0rem!important;
+        background: #F9F9F9!important;
+        bottom: 228px!important;
+        right: 53px!important;
+        
+    }
+    .parent .mybag .checkout ul li{
+        line-height: 16px;
+        margin-top: 1.1rem!important;
+        
+    }
+    .parent .mybag .checkout button{
+      
+        margin-top: 0.5rem!important;
+    }
+    .parent .mybag .kfcface{
+        display: none;
+    }
+    
+
+}
+
+.parent{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000A6;
+    z-index: 99;
+    
+}
+.parent .mybag{
+    float: right;
+    width:62.7379209%;
+    background-color: #F9F9F9;
+    height: 100vh;
+    position: relative;
+    z-index: -2;
+}
+.parent .mybag .kfcface{
+    position: absolute;
+    z-index: -1;
+    bottom: 10%;
+    left: 30%;
+    
+}
+.parent .mybag .cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.parent .mybag .cont .arrow{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+.parent .mybag h1{
+    border-bottom: 1px solid rgb(229 223 223);
+    box-shadow: 2px 3px 6px 1px rgb(229 223 223);
+    width: 100%;
+    color: black;
+    height: 79px;
+    padding: 1.5rem 2rem 1rem ;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 38px;
+    
+}
+.parent .mybag .slider{
+    height: 86.7vh;
+    width: 90.714119%;
+    overflow-y: auto;
+    margin-right: 1rem;
+}
+
+.parent .mybag  .checkout{
+    position: absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    background: linear-gradient(94.71deg, #babbbc  , #e0e0e1 );
+    width: 100%;
+    bottom: 0px;
+    padding: 1rem;
+}
+.parent .mybag  .checkout .uls{
+    display: flex;
+}
+.parent .mybag .checkout ul{
+    list-style-type: none;
+}
+.parent .mybag .checkout ul li{
+    font-weight: 400;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0.1rem;
+}
+.parent .mybag .checkout .num{
+    font-weight: 700;
+    font-size: 26px;
+}
+.parent .mybag .checkout ul li span{
+    margin-left: 1rem;
+}
+.parent .mybag .checkout button{
+    width: 104px;
+    height: 37px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 10px;
+    
+}
+.parent .mybag .checkout ul .num{
+    font-weight: 700;
+    font-size: 26px;
+}

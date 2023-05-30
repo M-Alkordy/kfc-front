@@ -97,11 +97,13 @@
     
 }
 .btncard{
-    width: 70px!important;
+    width: 43.87755102040816%!important;
     height: 29px!important;
     border-radius: 20px;
     background-color: transparent;
-    font-size: 10px!important;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
     border: 1px solid black;
 }
 .btns{

@@ -1,0 +1,55 @@
+@media (max-width:990px){
+    .all .face ul{
+        gap: 15rem!important;
+        top: 45px!important;
+    }
+    .all .face ul li{
+        font-weight: 700!important;
+        font-size: 20px!important;
+        line-height: 30px!important;
+    }
+    .all .filter {
+        
+        flex-wrap: wrap;
+    }
+    .all .filter li{
+        font-weight: 700!important;
+        font-size: 16px!important;
+        line-height: 24px!important;
+    }
+}
+.all .face{
+    position: relative;
+}
+.all .face ul{
+    position: absolute;
+    top: 154px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 39rem;
+}
+.all .face ul li{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 148px;
+    color: #fdfdfdb8;
+}
+.all .filter{
+    display: flex;
+    list-style-type: none;
+    gap: 4rem;
+    justify-content: center;
+}
+.all .filter li{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color:  #807E7E;
+}
+.all .filter li:hover{
+    cursor: pointer;
+    color: black;
+    border-bottom: 2px solid black;
+}
+

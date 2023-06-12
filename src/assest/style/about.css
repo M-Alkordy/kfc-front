@@ -1,0 +1,133 @@
+@media (max-width:990px){
+    .about{
+        background-color: #E4002B;
+        z-index: -5;
+        position: relative;
+        width: fit-content;
+    }
+    .about .up{
+        position: relative;
+        gap: 0rem!important;
+        padding: 0px!important;
+        
+    }
+    .about .up .finger{
+        display: none;
+    }
+    .about .up .food{
+        margin-top: 3rem;
+    }
+    .about .up .white{
+        position: absolute;
+    }
+    .about .up .white span{
+        width: 15px!important;
+        height: 30px!important;
+    } 
+    .about .up .we{
+        font-weight: 700!important;
+        font-size: 16px!important;
+        line-height: 30px!important;
+    }
+    .about .up p{
+        
+        font-weight: 400!important;
+        font-size:12px!important;
+        line-height: 22px!important;
+        
+    }
+    .about .btn-about{
+        font-weight: 700!important;
+        font-size: 10px!important;
+        line-height: 12px!important;
+        height: 12px;
+    }
+    
+    .about .down :first-child{
+        display: none;
+    }
+    .about .down  :last-child{
+        display: inline!important;
+        width: 265px;
+        height: 246.32px;
+    }
+    .about .down .kfc{
+        display: none;
+    }
+}
+.about{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+.about .up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #E4002B;
+    color: white;
+    padding: 1rem;
+    
+    gap: 1rem;
+}
+.about .up h1{
+    font-weight: 700;
+    text-align: start;
+    font-size: 30px;
+    line-height: 44px;
+   
+}
+.about .up .white{
+    gap: 1rem;
+}
+.about .up .white span{
+    width: 30px;
+    height: 110px;
+    background-color: white;
+} 
+.about .up span{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about .up .we{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 74px;
+}
+.about .up p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about .btn-about{
+    width: 18.3333333%;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+    
+}
+.about .down{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.about .down :first-child{
+    position: absolute;
+    z-index: -1;
+    left: 132px;
+    top: 98px;
+}
+.about .down  :last-child{
+    display: none;
+}

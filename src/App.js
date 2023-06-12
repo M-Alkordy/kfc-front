@@ -1,25 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import Cardproducts from './componants/Cardproducts';
+import About from './componants/About';
+import { Outlet } from 'react-router-dom';
+import { AiOutlineSearch } from "react-icons/ai";
+import { BsFillBagHeartFill } from "react-icons/bs";
+import { useNavigate } from 'react-router-dom';
+
 
 function App() {
+  const navigate = useNavigate();
+  const search = () => {
+    navigate("/search")
+  }
+  
+ 
+
+const mybag = () => {
+  navigate("/mybag")
+}
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+    
+      
+      <AiOutlineSearch onClick={search} />
+      <BsFillBagHeartFill onClick={mybag}/>
+      <Outlet />
+      
+
     </div>
+
   );
+
 }
 
 export default App;

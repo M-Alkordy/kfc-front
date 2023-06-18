@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.addtion-card{
+    max-width: 80%;
+    margin: 0 auto;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width:360px) {
+   .addtion-card{
+    padding: 10px 20px;
+    max-width: 90%;
+    align-items: flex-start;
+
+   }
+}
+.add-sauces,
+.add-Choice,
+.add-Beverage{
+    text-align: center;
+
+}
+.add-sauces h2,
+.add-Choice h2,
+.add-Beverage h2{
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+text-align: center;
+color: #242424;
+padding: 15px;
+
+}
+
+.parent{
+    
+    border: 5px solid #E4002B;
+    padding: 10px;
+}
+.sauce img,
+.Choice img,
+.Beverage img{
+    
+width: 100px;
+height: 100px;
+}
+@media (max-width:360px) {
+    .parent{
+    
+        border: 1px solid #E4002B;
+        padding: 5px;
+        margin-right: 2px;
+    }
+    .add-sauces h2,
+    .add-Choice h2,
+    .add-Beverage h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    color: #242424;
+    padding: 0;
+    
+    }
+    .sauce img,
+.Choice img,
+.Beverage img{
+    
+width: 50px;
+height: 50px;
+}
+}
+.sauce p,
+.Choice p,
+.Beverage p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #242424;
+
+}
+@media (max-width:360px) {
+    .sauce p,
+.Choice p,
+.Beverage p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 8px;
+
+text-align: center;
+color: #242424;
+
+}
+}
+.sauce ,
+.Choice ,
+.Beverage{
+    border: 1px dashed #E4002B;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 20px;
+padding: 20px 10px;
+}
+
